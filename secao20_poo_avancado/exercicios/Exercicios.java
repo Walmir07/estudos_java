@@ -79,6 +79,16 @@ public class Exercicios {
 
         // Exercício 4:
 
+        Funcionario funcionario1 = new FuncionarioMeioPeriodo("João");
+        System.out.println(funcionario1.calcularSalario(1500, 0.10));
+
+        Funcionario funcionario2 = new FuncionarioMeioPeriodo("Lucas");
+        System.out.println(funcionario2.calcularSalario(1500, 0.20));
+
+        HidroAviao hidro = new HidroAviao();
+
+        hidro.operarVeiculo("Navegar");
+
     }
     
 }
